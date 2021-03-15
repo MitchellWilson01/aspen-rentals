@@ -10,8 +10,6 @@
     background-color: rgba($dark, 0.9);
     height: 5rem;
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
 
     button {
         background-color: transparent;
@@ -20,7 +18,11 @@
         box-shadow: none;
         outline: none;
         font-size: 2rem;
-        margin-right: 1rem;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
     }
 }
 
