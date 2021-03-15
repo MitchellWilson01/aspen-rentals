@@ -1,0 +1,23 @@
+@import '../../../scss/variables';
+
+.equipment {
+    background-image: linear-gradient(
+        rgba($dark, 0.6), 
+        rgba($dark, 0.6)
+    ), url('../../../images/equipment.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10rem 0;
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    h4 {
+        color: white;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

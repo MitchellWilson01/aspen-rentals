@@ -1,0 +1,35 @@
+@import '../../scss/variables';
+
+.intro {
+    background-image: linear-gradient(
+        rgba($dark, 0.3), 
+        rgba($dark, 0.3)
+    ), url('../../images/mining.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10rem 0rem;
+    text-align: center;
+
+    h1 {
+        color: white;
+        letter-spacing: 0.2rem;
+    }
+
+    h4 {
+        color: white;
+        margin-top: 2rem;
+    }
+
+    button {
+        margin-top: 2rem;
+        border: none;
+        outline: none;
+        background-color: $primary;
+        color: white;
+        border-radius: 30px;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 8px 4px -4px rgba($dark, 0.5);
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+}

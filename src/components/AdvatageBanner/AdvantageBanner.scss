@@ -1,0 +1,39 @@
+@import '../../scss/variables';
+
+.advantage {
+    padding: 4rem 1rem 1rem;
+    background-color: $light;
+
+    .green {
+        background-image: url('../../images/green.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 15rem;
+        margin-top: 2rem;
+    }
+
+    h1 {
+        color: $dark;
+        margin-top: 1rem;
+    }
+
+    ul {
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            display: flex;
+        }
+    }
+
+    i {
+        margin-top: 0.3rem;
+        color: $primary;
+    }
+
+    p {
+        margin-left: 1rem;
+        color: $gray;
+    }
+}

@@ -1,0 +1,52 @@
+@import '../../scss/variables';
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: end;
+    background-color: rgba($dark, 0.9);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        background-color: transparent;
+        color: white;
+        margin-right: 1rem;
+        border: none;
+        box-shadow: none;
+        outline: none;
+        font-size: 2rem;
+    }
+}
+
+.side-drawer {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    top: -100%;
+    background-color: rgba($dark, 0.9);
+    transition: 850ms;
+    z-index: 999;
+    padding: 0 1rem;
+
+    h4 {
+        font-weight: 400;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .link {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.side-drawer-active {
+    top: 5rem;
+    transition: 350ms;
+}

@@ -1,0 +1,65 @@
+@import '../../scss/variables';
+
+.compatable {
+    padding: 4rem 1rem 1rem;
+    background-color: white;
+
+    .alluminum {
+        background-image: url('../../images/aluminum.jpg');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 17rem;
+        margin-top: 1rem;
+    }
+
+    .copper {
+        background-image: url('../../images/copper.jpg');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 17rem;
+        margin-top: 2rem;
+    }
+
+    h1 {
+        color: $dark;
+    }
+
+    ul {
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+
+        li {
+            display: flex;
+
+            p {
+                margin-left: 1rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    i {
+        margin-top: 0.3rem;
+        color: $primary;
+    }
+
+    p {
+        color: $gray;
+    }
+
+    .bottom {
+        margin-top: 1rem;
+    }
+
+    span {
+        font-weight: 900;
+        color: $dark;
+    }
+
+    .other {
+        margin-left: 1rem;
+    }
+}
