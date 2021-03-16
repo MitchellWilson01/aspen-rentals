@@ -20,7 +20,9 @@ const Header = () => {
     return (
         <>
         <div className="header">
-            <button onClick={toggleDrawer}><i className="fas fa-bars"></i></button>
+            <button onClick={toggleDrawer}>
+                <hr/><hr className="hr-2"/><hr className="hr-3"/>
+            </button>
         </div>
         {sideDrawer}
         </>
@@ -28,3 +30,5 @@ const Header = () => {
 }
 
 export default Header;
+
+//<i className="fas fa-bars"></i>

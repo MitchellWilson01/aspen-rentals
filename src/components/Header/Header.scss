@@ -8,12 +8,11 @@
     display: flex;
     justify-content: end;
     background-color: rgba($dark, 0.9);
-    height: 5rem;
+    height: 4rem;
     width: 100%;
 
     button {
         background-color: transparent;
-        color: white;
         border: none;
         box-shadow: none;
         outline: none;
@@ -22,7 +21,22 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        right: 1rem;
+        left: 1rem;
+
+        hr {
+            width: 2.5rem;
+            border: solid white 1px;
+            border-radius: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .hr-2 {
+            width: 1.875rem;
+        }
+
+        .hr-3 {
+            width: 1.25rem;
+        }
     }
 }
 
@@ -49,6 +63,6 @@
 }
 
 .side-drawer-active {
-    top: 5rem;
+    top: 4rem;
     transition: 350ms;
 }
