@@ -9,8 +9,10 @@ const Briquetters = () => {
         <div className="briquetters">
             <h2>Briquetters</h2>
             <p>Swipe left on any of the images to learn more about that peice of equipment</p>
-                <Carousel className="card card-1" showIndicators={false} showStatus={false} autoPlay={false}>
-                    <div className="image"></div>
+                <Carousel className="card card-1" showIndicators={false} autoPlay={false} showStatus={false}>
+                    <div className="image">
+                        <p>ARS 1000</p>
+                    </div>
                     <div className="description">
                         <p>
                             Capacity (lbs/hr): <br />
