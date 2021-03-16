@@ -1,6 +1,7 @@
 import React from 'react';
 import './Briquetters.scss';
 import { Carousel } from 'react-responsive-carousel';
+import ARS1000 from '../../images/ARS1000.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Briquetters = () => {
@@ -8,9 +9,11 @@ const Briquetters = () => {
         <div className="briquetters">
             <h2>Briquetters</h2>
             <p>Swipe left on any of the images to learn more about that peice of equipment</p>
-                <Carousel className="card card-1" showIndicators={false} showStatus={false} autoPlay={false} infiniteLoop={false}>
-                    <div className="image">
-                        <p>ARS 1000</p>
+                <Carousel className="card card-1" showIndicators={false} showStatus={false} autoPlay={false}>
+                    <div>
+                    <img src={ARS1000}>
+                    </img>
+                    <p className="legend">ARS 1000</p>
                     </div>
                     <div className="description">
                         <p>
