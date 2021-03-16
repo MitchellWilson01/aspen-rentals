@@ -8,7 +8,7 @@ const Briquetters = () => {
         <div className="briquetters">
             <h2>Briquetters</h2>
             <p>Swipe left on any of the images to learn more about that peice of equipment</p>
-                <Carousel className="card card-1" showIndicators={false} autoPlay={false} showStatus={false}>
+                <Carousel className="card card-1" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
                         <p>ARS 1000</p>
                     </div>
@@ -29,7 +29,7 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
-                <Carousel className="card card-2" showIndicators={false} autoPlay={false} showStatus={false}>
+                <Carousel className="card card-2" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
                         <p>ARS 3000</p>
                     </div>
@@ -42,7 +42,7 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
-                <Carousel className="card card-3" showIndicators={false} autoPlay={false} showStatus={false}>
+                <Carousel className="card card-3" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
                         <p>ARS 600</p>
                     </div>
@@ -76,7 +76,7 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
-                <Carousel className="card card-5" showIndicators={false} autoPlay={false} showStatus={false}>
+                <Carousel className="card card-5" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
                         <p>PMC 275</p>
                     </div>
@@ -89,7 +89,7 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
-                <Carousel className="card card-6" showIndicators={false} autoPlay={false} showStatus={false}>
+                <Carousel className="card card-6" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
                         <p>RUF 1100</p>
                     </div>
@@ -102,9 +102,36 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
-                <Carousel className="card card-7" showIndicators={false} autoPlay={false} showStatus={false}>
+                <Carousel className="card card-7" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
                         <p>RUF 15</p>
+                    </div>
+                    <div className="description">
+                        <p>
+                            Capacity (lbs/hr): <br />
+                            Aluminum: 600 <br />
+                            Steel or Cast Iron: 1,200 <br />
+                            Copper or Brass: 1,600
+                        </p>
+                    </div>
+                </Carousel>
+                <h2 className="conveyors">Conveyors & Shreddors</h2>
+                <Carousel className="card card-8" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
+                    <div className="image">
+                        <p>600</p>
+                    </div>
+                    <div className="description">
+                        <p>
+                            Capacity (lbs/hr): <br />
+                            Aluminum: 1,000 <br />
+                            Steel or Cast Iron: 2,000 <br />
+                            Copper or Brass: 3,200
+                        </p>
+                    </div>
+                </Carousel>
+                <Carousel className="card card-9" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
+                    <div className="image">
+                        <p>SHREDDER</p>
                     </div>
                     <div className="description">
                         <p>

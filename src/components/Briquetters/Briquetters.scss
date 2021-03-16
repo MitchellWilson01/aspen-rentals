@@ -40,6 +40,10 @@
         }
     }
 
+    .conveyors {
+        margin-top: 2rem;
+    }
+
     .card-1 {
         background-image: url('../../images/ARS1000.jpg');     
     }
@@ -77,5 +81,24 @@
 
     .card-7 {
         background-image: url('../../images/RUF15.jpg');     
+    }
+
+    .card-8 {
+        background-image: url('../../images/600.jpg');     
+    }
+
+    .card-9 {
+        background-image: url('../../images/SHREDDER.png');
+        height: 30rem;
+
+        .image {
+            p {
+                bottom: -10rem;
+            }
+        }
+
+        .description {
+            height: 30rem;
+        }      
     }
 }
