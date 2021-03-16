@@ -63,7 +63,7 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
-                <Carousel className="card card-4" showIndicators={false} autoPlay={false} showStatus={false}>
+                <Carousel className="card card-4" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
                         <p>PMC 225</p>
                     </div>
