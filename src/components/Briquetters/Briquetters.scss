@@ -13,13 +13,13 @@
     }
 
     .card {
-        margin: 1rem 0;
+        margin-top: 1rem;
         background-size: 100% 100%;
         height: 20rem;
 
         .image {
             height: 20rem;
-            position: relative;
+            //position: relative;
 
             p {
                 position: absolute;
@@ -33,11 +33,20 @@
 
         .description {
             background-color: $light;
-            height: 20rem;
+            height: 23rem;
             margin-top: -0.5rem;
             padding: 0 0.5rem;
             text-align: start;
         }
+    }
+
+    .title {
+        background-color: $dark;
+        color: white;
+        text-align: center;
+        margin-top: 0;
+        height: 3rem;
+        line-height: 3rem;
     }
 
     .conveyors {
@@ -63,7 +72,7 @@
         }
 
         .description {
-            height: 30rem;
+            height: 33rem;
         }   
     }
 
@@ -98,7 +107,7 @@
         }
 
         .description {
-            height: 30rem;
+            height: 33rem;
         }      
     }
 }

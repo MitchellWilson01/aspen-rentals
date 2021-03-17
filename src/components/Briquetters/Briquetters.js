@@ -9,9 +9,7 @@ const Briquetters = () => {
             <h2>Briquetters</h2>
             <p>Swipe left on any of the images to learn more about that peice of equipment</p>
                 <Carousel className="card card-1" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
-                    <div className="image">
-                        <p>ARS 1000</p>
-                    </div>
+                    <div className="image"></div>
                     <div className="description">
                         <p>
                             Capacity (lbs/hr): <br />
@@ -29,9 +27,9 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">ARS 1000</p>
                 <Carousel className="card card-2" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>ARS 3000</p>
                     </div>
                     <div className="description">
                         <p>
@@ -42,9 +40,9 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">ARS 3000</p>
                 <Carousel className="card card-3" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>ARS 600</p>
                     </div>
                     <div className="description">
                         <p>
@@ -63,9 +61,9 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">ARS 600</p>
                 <Carousel className="card card-4" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>PMC 225</p>
                     </div>
                     <div className="description">
                         <p>
@@ -76,9 +74,9 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">PMC 225</p>
                 <Carousel className="card card-5" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>PMC 275</p>
                     </div>
                     <div className="description">
                         <p>
@@ -89,9 +87,9 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">PMC 275</p>
                 <Carousel className="card card-6" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>RUF 1100</p>
                     </div>
                     <div className="description">
                         <p>
@@ -102,9 +100,9 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">RUF 1100</p>
                 <Carousel className="card card-7" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>RUF 15</p>
                     </div>
                     <div className="description">
                         <p>
@@ -115,10 +113,10 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">RUF 15</p>
                 <h2 className="conveyors">Conveyors & Shreddors</h2>
                 <Carousel className="card card-8" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>600</p>
                     </div>
                     <div className="description">
                         <p>
@@ -129,9 +127,9 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">600</p>
                 <Carousel className="card card-9" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                     <div className="image">
-                        <p>SHREDDER</p>
                     </div>
                     <div className="description">
                         <p>
@@ -142,6 +140,7 @@ const Briquetters = () => {
                         </p>
                     </div>
                 </Carousel>
+                <p className="title">SHREDDER</p>
         </div>
     );
 }
