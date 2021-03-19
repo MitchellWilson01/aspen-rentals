@@ -1,0 +1,37 @@
+@import '../../../scss/variables';
+
+.faq {
+    //background-color: $dark;
+    
+    h1 {
+        text-align: center;
+        color: black;
+        letter-spacing: 0.05rem;
+        padding: 5rem 0 1rem;
+        /*
+        background-image: linear-gradient(
+            rgba($dark, 0.1), 
+            rgba($dark, 0.5) 15%
+        ), url('../../../images/studdedMetal.png');
+        */
+        //background-size: 300%; 
+
+        span {
+            color: black;
+        }
+    }
+
+    .question {
+        background-color: white;
+        padding: 1rem;
+
+        p {
+            color: $gray;
+            margin-top: 0.5rem;
+        }
+    }
+
+    .other {
+        background-color: $light;
+    }
+}

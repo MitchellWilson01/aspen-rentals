@@ -14,7 +14,7 @@ const Header = () => {
                                 <Link to="/" className="link" onClick={toggleDrawer}><h4>Services</h4></Link>
                                 <Link to="/equipment" className="link" onClick={toggleDrawer}><h4>Equipment</h4></Link>
                                 <Link to="/" className="link" onClick={toggleDrawer}><h4>About</h4></Link>
-                                <Link to="/" className="link" onClick={toggleDrawer}><h4>FAQ</h4></Link>
+                                <Link to="/FAQ" className="link" onClick={toggleDrawer}><h4>FAQ</h4></Link>
                         </div>
 
     return (
