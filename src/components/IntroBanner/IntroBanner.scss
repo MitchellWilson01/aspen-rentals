@@ -4,10 +4,10 @@
     background-image: linear-gradient(
         rgba($dark, 0.2), 
         rgba($dark, 0.6) 15%
-    ), url('../../images/pucking.jpg');
+    ), url('../../images/puck.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 10rem 1rem;
+    padding: 8rem 1rem;
     text-align: center;
 
     .logoLeaf {
@@ -47,7 +47,7 @@
         color: white;
         border-radius: 30px;
         padding: 0.5rem 1rem;
-        box-shadow: 0 8px 4px -4px rgba($dark, 0.5);
+        box-shadow: 0 8px 4px -4px rgba($dark, 1);
         font-weight: 300;
         font-size: 1.5rem;
     }
