@@ -6,7 +6,7 @@ const IntroBanner = () => {
         <div className="intro">
             <div className="logoLeaf"></div>
             <div className="logoText"></div>
-            <h4>All the savings,<br/>without all the capital</h4>
+            <h3>All the savings,<br/>without all the capital</h3>
             <button>contact</button>
         </div>
     );  

@@ -1,7 +1,7 @@
 @import '../../scss/variables';
 
 .compatable {
-    padding: 4rem 1rem 1rem;
+    padding: 4rem 1rem 4rem;
     background-color: white;
 
     .alluminum {
@@ -61,5 +61,64 @@
 
     .other {
         margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .compatable {
+        background-color: white;
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            margin: 0 auto;
+        }
+
+        .container-images {
+            display: flex;
+            justify-content: space-between;
+
+            .copper, .alluminum {
+                width: 48%;
+            }
+
+            .alluminum {
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .compatable {
+        h1 {
+            text-align: start;
+        }
+
+        .body {
+            font-size: 1.25rem;
+            max-width: 66ch;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            max-width: 132ch;
+        }
+
+        p, ul {
+            max-width: 50%;
+        }
+
+        .container-images {
+            flex-direction: column;
+            width: 25rem;
+
+            .copper, .alluminum {
+                width: 100%;
+            }
+        }
     }
 }

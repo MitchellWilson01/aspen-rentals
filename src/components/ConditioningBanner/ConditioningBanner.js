@@ -5,6 +5,7 @@ const ConditioningBanner = () => {
     return (
         <div className="conditioning">
             <h1>Conditioning Chips</h1>
+            <div className="container">
             <p>We recommend chip conditiong (shredding) as well as solids 
             protection when using our equipment. This will ensure that equipment 
             remains in great condition and leaves you with less hastle down the
@@ -31,8 +32,11 @@ const ConditioningBanner = () => {
                 </li>
             </ul>
             <h2>Examples of "Rats Nests"</h2>
-            <div className="rats"></div>
-            <div className="rats2"></div>
+            <div className="container-images">
+                <div className="rats"></div>
+                <div className="rats2"></div>
+            </div>
+            </div>
         </div>
     );
 }

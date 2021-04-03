@@ -1,45 +1,69 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ServiceCards.scss';
 
 const ServiceCards = () => {
+    const initialMobile = window.innerWidth < 1200 ? true : false;
+    const [mobile, setMobile] = useState(initialMobile);
+
+    const handleResize = () => {
+        if (window.innerWidth < 1200) {
+            setMobile(true)
+        } else {
+            setMobile(false);
+        }
+    }
+
+    const title =   <div className="service-title">
+                        <h1>Services</h1>
+                    </div>
+
+    window.addEventListener("resize", handleResize);
+
     return (
+        <>
         <div className="service">
             <div className="card">
-                <i className="fas fa-cogs"></i>
+                {mobile ? <i className="fas fa-cogs"></i> : null}
                 <div>
-                    <h3>Equipment Rental</h3>
+                    <h5>Equipment Rental</h5>
+                    {mobile ? null : <i className="fas fa-cogs"></i>}
                     <p>Wide selection of equipment for rent at an affordable price</p>
                 </div>
             </div>
-            <div className="card other">
-                <i className="fas fa-tools"></i>
+            <div className="card other border">
+                {mobile ? <i className="fas fa-tools"></i> : null}
                 <div>
-                    <h3>Repairs & Refurbishing</h3>
+                    <h5>Repairs & Refurbishing</h5>
+                    {mobile ? null : <i className="fas fa-tools"></i>}
                     <p>Third party repair services for all major manufacturers</p>
                 </div>
             </div>
-            <div className="card">
-                <i className="fas fa-toolbox"></i>
+            <div className="card border">
+                {mobile ? <i className="fas fa-toolbox"></i> : null}
                 <div>
-                    <h3>Custom Modifications</h3>
+                    <h5>Custom Modifications</h5>
+                    {mobile ? null : <i className="fas fa-toolbox"></i>}
                     <p>Modifications of equipment to meet customer's needs</p>
                 </div>
             </div>
-            <div className="card other">
-                <i className="fas fa-industry"></i>
+            <div className="card other border">
+                {mobile ? <i className="fas fa-industry"></i> : null}
                 <div>
-                    <h3>OEM & Specialty Parts</h3>
+                    <h5>OEM & Specialty Parts</h5>
+                    {mobile ? null : <i className="fas fa-industry"></i>}
                     <p>Genuine parts from reputable major manufactures </p>
                 </div>
             </div>
             <div className="card">
-                <i className="fas fa-trailer"></i>
+                {mobile ? <i className="fas fa-trailer"></i> : null}
                 <div>
-                    <h3>Trailer Conversions</h3>
+                    <h5>Trailer Conversions</h5>
+                    {mobile ? null : <i className="fas fa-trailer"></i>}
                     <p>Easily transfer fixed units onto mobile trailers</p>
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

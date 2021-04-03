@@ -2,8 +2,11 @@ import React from 'react';
 import './CompatableBanner.scss';
 
 const CompatableBanner = () => {
+
     return (
         <div className="compatable">        
+            <div className="container">
+            <div className="body">
             <h1>Compatable Metals & Alloys</h1>
             <ul>
                 <li>
@@ -25,8 +28,12 @@ const CompatableBanner = () => {
             <p className="bottom">A cubic yard of material is <span>required </span>  
             for testing. Reports and briquette samples will be sent back to 
             leaser.</p>
-            <div className="copper"></div>
-            <div className="alluminum"></div>
+            </div>
+            <div className="container-images">
+                <div className="copper"></div>
+                <div className="alluminum"></div>
+            </div>
+            </div>
         </div>
     );
 }

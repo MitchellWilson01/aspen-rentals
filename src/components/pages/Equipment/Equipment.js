@@ -7,7 +7,7 @@ const Equipment = () => {
         <>
         <div className="equipment">
             <h1>Equipment</h1>
-            <h4>High quality equipment<br/>at an affordable price</h4>
+            <h3>High quality equipment<br/>at an affordable price</h3>
         </div>
         <Briquetters />
         </>
