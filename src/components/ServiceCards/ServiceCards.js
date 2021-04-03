@@ -12,11 +12,7 @@ const ServiceCards = () => {
             setMobile(false);
         }
     }
-
-    const title =   <div className="service-title">
-                        <h1>Services</h1>
-                    </div>
-
+    
     window.addEventListener("resize", handleResize);
 
     return (
