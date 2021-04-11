@@ -3,7 +3,6 @@ import IntroBanner from '../../IntroBanner/IntroBanner';
 import ServiceCards from '../../ServiceCards/ServiceCards';
 import AdvantageBanner from '../../AdvatageBanner/AdvantageBanner';
 import CompatableBanner from '../../CompatableBanner/CompatableBanner';
-import ConditioningBanner from '../../ConditioningBanner/ConditioningBanner';
 
 const Home = () => {
     return (
@@ -12,7 +11,6 @@ const Home = () => {
             <ServiceCards />
             <AdvantageBanner />
             <CompatableBanner />
-            <ConditioningBanner />
         </div>
     );
 }
