@@ -17,22 +17,22 @@ const AdvantageBanner = () => {
 
     return (
         <div className="advantage">
-            {mobile ? <h1>Why Briquette Material?</h1> : null}
+            {mobile ? <h1>Why Rent Briquetter Equipment?</h1> : null}
             <div className="container-list">
             <div>
-                {mobile ? null : <h1>Why Briquette Material?</h1>}
+                {mobile ? null : <h1>Why Rent Briquetter Equipment?</h1>}
                 <ul>
                     <li>
                         <i className="fas fa-caret-right"></i>
-                        <p>Increase the value of your metal chips</p>
+                        <p>No upfront capital costs</p>
                     </li>
                     <li>
                         <i className="fas fa-caret-right"></i>
-                        <p>Allow for recycling of coolant fluids</p>
+                        <p>Rental pays for itself by increasing the value of your metal chips</p>
                     </li>
                     <li>
                         <i className="fas fa-caret-right"></i>
-                        <p>Little residual coolant during transport</p>
+                        <p>Creates additional savings by the recycling of coolant fluid</p>
                     </li>
                     <li>
                         <i className="fas fa-caret-right"></i>
@@ -40,15 +40,11 @@ const AdvantageBanner = () => {
                     </li>
                     <li>
                         <i className="fas fa-caret-right"></i>
-                        <p>Lower handling and storage costs</p>
+                        <p>Significantly lower handling and storage costs</p>
                     </li>
                     <li>
                         <i className="fas fa-caret-right"></i>
                         <p>Accurately weigh your briquttes</p>
-                    </li>
-                    <li>
-                        <i className="fas fa-caret-right"></i>
-                        <p>Lower transportation costs</p>
                     </li>
                 </ul>
             </div>

@@ -20,43 +20,43 @@ const ServiceCards = () => {
         <div className="service">
             <div className="card">
                 {mobile ? <i className="fas fa-cogs"></i> : null}
+                <a href="/equipment">
                 <div>
-                    <h5>Equipment Rental</h5>
+                    <h5>Equipment</h5>
                     {mobile ? null : <i className="fas fa-cogs"></i>}
-                    <p>Wide selection of equipment for rent at an affordable price</p>
+                    <p>A variety of rental equipment at an affordable price</p>
                 </div>
+                </a>
             </div>
             <div className="card other border">
                 {mobile ? <i className="fas fa-tools"></i> : null}
+                <a href="/equipment">
                 <div>
-                    <h5>Repairs & Refurbishing</h5>
+                    <h5>Repairs</h5>
                     {mobile ? null : <i className="fas fa-tools"></i>}
                     <p>Third party repair services for all major manufacturers</p>
                 </div>
+                </a>
             </div>
             <div className="card border">
                 {mobile ? <i className="fas fa-toolbox"></i> : null}
+                <a href="/conditioning">
                 <div>
-                    <h5>Custom Modifications</h5>
+                    <h5>Chip Specification & Testing</h5>
                     {mobile ? null : <i className="fas fa-toolbox"></i>}
-                    <p>Modifications of equipment to meet customer's needs</p>
+                    <p>Test, shred, and protect your chips</p>
                 </div>
+                </a>
             </div>
             <div className="card other border">
-                {mobile ? <i className="fas fa-industry"></i> : null}
+                {mobile ? <i className="fas fa-question"></i> : null}
+                <a href="/FAQ">
                 <div>
-                    <h5>OEM & Specialty Parts</h5>
-                    {mobile ? null : <i className="fas fa-industry"></i>}
-                    <p>Genuine parts from reputable major manufactures </p>
+                    <h5>FAQ</h5>
+                    {mobile ? null : <i className="fas fa-question"></i>}
+                    <p>Frequently asked questions by customers </p>
                 </div>
-            </div>
-            <div className="card">
-                {mobile ? <i className="fas fa-trailer"></i> : null}
-                <div>
-                    <h5>Trailer Conversions</h5>
-                    {mobile ? null : <i className="fas fa-trailer"></i>}
-                    <p>Easily transfer fixed units onto mobile trailers</p>
-                </div>
+                </a>
             </div>
         </div>
         </>

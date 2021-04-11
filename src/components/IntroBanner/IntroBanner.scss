@@ -4,10 +4,10 @@
     background-image: linear-gradient(
         rgba($dark, 0.2), 
         rgba($dark, 0.6) 15%
-    ), url('../../images/puck.jpg');
-    background-size: 100% 100%;
+    ), url('../../images/briquettes.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 8rem 1rem;
+    padding: 5rem 1rem 1rem;
     text-align: center;
 
     .logoLeaf {
@@ -41,6 +41,10 @@
         margin-top: 2rem;
     }
 
+    .rentals {
+        font-weight: 400;
+    }
+
     button {
         margin-top: 2rem;
         border: none;
@@ -57,7 +61,7 @@
 
 @media only screen and (min-width: 1200px) {
     .intro {
-        padding: 16rem 1rem;
+        padding: 8rem 1rem;
 
         .logoLeaf {
             height: 14rem;
