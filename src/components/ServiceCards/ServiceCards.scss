@@ -55,7 +55,7 @@
         margin: 0 auto;
 
         .card {
-            margin: 2rem 1rem 0;
+            margin: 2rem 1rem 2rem;
             display: flex;
             flex-direction: column;
             width: calc(20% - 0.5rem);
@@ -91,6 +91,7 @@
 
                 h5 {
                     height: 6rem;
+                    color: $dark;
                 }
 
                 i {
