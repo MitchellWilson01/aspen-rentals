@@ -4,11 +4,11 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Briquetters = () => {
-    const initialMobile = window.innerWidth < 900 ? true : false;
+    const initialMobile = window.innerWidth < 768 ? true : false;
     const [mobile, setMobile] = useState(initialMobile);
 
     const handleResize = () => {
-        if (window.innerWidth < 900) {
+        if (window.innerWidth < 768) {
             setMobile(true)
         } else {
             setMobile(false);

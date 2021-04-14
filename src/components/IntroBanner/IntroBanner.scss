@@ -1,4 +1,5 @@
 @import '../../scss/variables';
+@import '../../scss//animations';
 
 .intro {
     background-image: linear-gradient(
@@ -7,7 +8,7 @@
     ), url('../../images/briquettes.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 8rem 1rem 2rem;
+    padding: 10rem 1rem 2rem;
     text-align: center;
 
     .logoLeaf {
@@ -38,11 +39,13 @@
 
     h3 {
         color: white;
-        margin-top: 2rem;
+        //margin-top: 2rem;
+        //font-weight: 400;
     }
 
     .rentals {
-        font-weight: 400;
+        //font-weight: 400;
+        margin-top: 2rem;
     }
 
     button {
@@ -50,18 +53,23 @@
         border: none;
         outline: none;
         background-color: $primary;
-        color: white;
+        color: white !important;
         border-radius: 30px;
         padding: 0.5rem 1rem;
         box-shadow: 0 8px 4px -4px rgba($dark, 1);
         font-weight: 300;
         font-size: 1.5rem;
+
+        &:hover {
+            -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        }
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .intro {
-        padding: 8rem 1rem;
+        padding-bottom: 4rem;
 
         .logoLeaf {
             height: 14rem;
@@ -72,13 +80,12 @@
             height: 10rem;
         }
 
-        h3 {
+        .rentals {
             margin-top: 4rem;
         }
 
         button {
             margin-top: 4rem;
-            border-radius: 30px;
             padding: 0;
             width: 17rem;
             height: 4rem;

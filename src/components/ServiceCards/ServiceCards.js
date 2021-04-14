@@ -18,13 +18,14 @@ const ServiceCards = () => {
     return (
         <>
         <div className="service">
+            {mobile ? null : <h5 className="title">Resources</h5>}
             <div className="card">
                 {mobile ? <i className="fas fa-cogs"></i> : null}
                 <a href="/equipment">
                 <div>
-                    <h5>Equipment</h5>
                     {mobile ? null : <i className="fas fa-cogs"></i>}
-                    <p>A variety of rental equipment at an affordable price</p>
+                    <h5>Equipment</h5>
+                    <p>Variety of high-quality and affordable rental equipment</p>
                 </div>
                 </a>
             </div>
@@ -32,8 +33,8 @@ const ServiceCards = () => {
                 {mobile ? <i className="fas fa-tools"></i> : null}
                 <a href="/equipment">
                 <div>
-                    <h5>Repairs</h5>
                     {mobile ? null : <i className="fas fa-tools"></i>}
+                    <h5>Repairs</h5>
                     <p>Third party repair services for all major manufacturers</p>
                 </div>
                 </a>
@@ -42,8 +43,8 @@ const ServiceCards = () => {
                 {mobile ? <i className="fas fa-toolbox"></i> : null}
                 <a href="/conditioning">
                 <div>
-                    <h5>Chip Specification & Testing</h5>
                     {mobile ? null : <i className="fas fa-toolbox"></i>}
+                    <h5>Chip Specification</h5>
                     <p>Test, shred, and protect your chips</p>
                 </div>
                 </a>
@@ -52,8 +53,8 @@ const ServiceCards = () => {
                 {mobile ? <i className="fas fa-question"></i> : null}
                 <a href="/FAQ">
                 <div>
-                    <h5>FAQ</h5>
                     {mobile ? null : <i className="fas fa-question"></i>}
+                    <h5>FAQ</h5>
                     <p>Frequently asked questions by customers </p>
                 </div>
                 </a>
