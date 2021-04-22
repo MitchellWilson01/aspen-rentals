@@ -1,9 +1,33 @@
 @import '../../../scss/variables';
 
 .about {
-    padding: 1rem;
+    padding: 0.5rem 0;
     margin-top: 4rem;
     margin-bottom: 50%;
+
+    .annah {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .christian {
+        margin-top: 0.5rem;
+    }
+
+    i {
+        color: $primary;
+        //font-size: 1.5rem;
+    }
+
+    .container {
+        //border: solid red 1px;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    .info {
+        margin: 0 auto;
+    }
 
     h1 {
         text-align: center;
@@ -13,8 +37,8 @@
     }
 
     p {
-        padding: 0 1rem;
-        background-color: white;
+        //padding: 0 1rem;
+        //background-color: white;
     }
 
     .content {
@@ -23,7 +47,7 @@
 
         .about {
             display: flex;
-            background-color: white;
+            //background-color: white;
             margin: 0;
         }
 
@@ -65,6 +89,21 @@
     .about {
         .container {
             margin: 0 auto;
+        }
+
+        .info {
+            display: flex;
+            //border: solid red 1px;
+            justify-content: center;
+        }
+
+        .christian {
+            margin-right: 1rem;
+            margin-top: 1rem;
+        }
+
+        .annah {
+            margin-left: 1rem;
         }
     }
 }

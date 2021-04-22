@@ -54,6 +54,7 @@
         justify-content: center;
         max-width: 150rem;
         margin: 0 auto;
+        padding-bottom: 4rem;
 
         .title {
             font-size: 2.5rem;
@@ -63,17 +64,25 @@
             color: black;
         }
 
+        .subtitle {
+            width: 100%;
+            text-align: center;
+            color: $gray;
+        }
+
         .card {
             margin: 2rem 1rem 2rem;
             display: flex;
             flex-direction: column;
             width: calc(20% - 0.5rem);
             padding: 1rem;
+            //background-color: $light;
 
             &:hover {
                 -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
                 animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-                box-shadow: 0 0.5rem 6px -6px rgba($dark, 0.3);
+                //box-shadow: 0 0.5rem 6px -6px rgba($dark, 0.3);
+                box-shadow: 0 8px 4px -4px rgba($dark, 0.5);
             }
     
             i {

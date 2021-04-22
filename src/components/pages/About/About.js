@@ -1,15 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.scss';
 
 const About = () => {
+    const initialMobile = window.innerWidth < 768 ? true : false;
+    const [mobile, setMobile] = useState(initialMobile);
+
+    const handleResize = () => {
+        if (window.innerWidth < 768) {
+            setMobile(true)
+        } else {
+            setMobile(false);
+        }
+    }
+
+    const info = <div className="info">
+                    <div className="christian">                       
+                        <p><i className="fas fa-user-circle"></i> &nbsp; Christian Martinez
+                        <br/><i className="fas fa-envelope-open-text"></i> &nbsp; Christian@aspenindustrialmachines.com
+                        <br/><i class="fas fa-phone"></i> &nbsp; (713)-447-1487</p>
+                    </div>
+                    <div className="annah">         
+                        <p><i class="fas fa-user-circle"></i> &nbsp; Annah Johnson
+                        <br/><i className="fas fa-envelope-open-text"></i> &nbsp; Annah@aspenindustrialmachines.com
+                        <br/><i class="fas fa-phone"></i> &nbsp; (512)-740-4092</p>
+                        <p></p>
+                    </div>
+                </div>
+
+    window.addEventListener("resize", handleResize);
+
     return (
         <div className="about">
-            <div className="container">
             <h1>About Aspen</h1>
-            <div className="contact-info">
-
-            </div>
+            {mobile ? null : info}
+            <div className="container">
             <div className="content">
+                {mobile ? info : null}
                 <div className="about">
                     <p>Aspen Industrial Machines, LLC. was created to provide rental 
                     briquetting equipment for the manufacturing and recycling industries.</p>

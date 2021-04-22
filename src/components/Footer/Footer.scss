@@ -5,8 +5,14 @@
     padding: 1rem;
     background-color: $dark;
     color: white;
+    display: flex;
+    justify-content: center;
 
     .fas {
         color: $primary;
+    }
+
+    .thing {
+        display: inline-block;
     }
 }

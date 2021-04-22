@@ -12,6 +12,9 @@ const ServiceCards = () => {
             setMobile(false);
         }
     }
+
+    const subtitle = <p className="subtitle">Click on any of the sections below to 
+                    learn more about what Aspen can do for you</p>
     
     window.addEventListener("resize", handleResize);
 
@@ -19,6 +22,7 @@ const ServiceCards = () => {
         <>
         <div className="service">
             {mobile ? null : <h5 className="title">Resources</h5>}
+            {mobile ? null : subtitle}
             <div className="card">
                 {mobile ? <i className="fas fa-cogs"></i> : null}
                 <a href="/equipment">
