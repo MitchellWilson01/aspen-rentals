@@ -5,12 +5,12 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="thing">
+            <p><i className="fas fa-user-circle"></i>
+            &nbsp;&nbsp;&nbsp;Christian Martinez</p>
             <p><i className="fas fa-envelope-open-text"></i> 
-            &nbsp;&nbsp;&nbsp;admin@aspen-rentals.com</p>
+            &nbsp;&nbsp;&nbsp;Christian@aspenindustrialmachines.com</p>
             <p><i className="fas fa-phone"></i> 
-            &nbsp;&nbsp;&nbsp;(979) 864-3990</p>
-            <p><i className="fas fa-map-marker-alt"></i> 
-            &nbsp;&nbsp;&nbsp;23603 N. Hwy 288, Angleton, TX 77515</p>
+            &nbsp;&nbsp;&nbsp;(713)-447-1487</p>
             </div>
         </div>
     );
