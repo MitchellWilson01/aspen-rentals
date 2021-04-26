@@ -7,12 +7,75 @@
     color: white;
     display: flex;
     justify-content: center;
+    margin-top: 6rem;
 
     .fas {
         color: $primary;
     }
 
     .thing {
-        display: inline-block;
+        //display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        .thing {
+            margin-right: 3rem;
+            margin-left: 3rem;
+            //border: solid red 1px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            margin-left: 3rem;
+            position: relative;
+            width: 15rem;
+            margin-right: 3rem;
+        }
+
+        .contact {
+            width: 15rem;
+            margin-bottom: 0.25rem;
+            height: 46%;
+            position: absolute;
+            top: 0;
+            font-size: 1.5rem;
+            border: solid $primary 1px;
+            border-radius: 3px;
+            background-color: $dark;
+            color: $primary;
+
+            &:hover {
+                background-color: $primary;
+                color: white;
+            }
+        }
+
+        .home {
+            width: 15rem;
+            height: 46%;
+            position: absolute;
+            bottom: 0;
+            font-size: 1.5rem;
+            background-color: $dark;
+            color: $primary;
+            border: solid $primary 1px;
+            border-radius: 3px;
+
+            &:hover {
+                background-color: $primary;
+                color: white;
+            }
+        }
+
+        .logo {
+            background-image: url('../../images/fullLogo.png');
+            background-size: 100% 100%;
+            width: 17rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+        }
     }
 }
