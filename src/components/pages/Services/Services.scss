@@ -1,0 +1,25 @@
+@import '../../../scss/variables';
+
+.services {
+    padding: 0 1rem;
+    
+    .container {
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin-top: 6rem;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .services {
+        h1 {
+            text-align: center;
+        }
+    }
+}

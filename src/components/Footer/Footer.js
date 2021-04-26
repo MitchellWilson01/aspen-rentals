@@ -7,7 +7,7 @@ const Footer = () => {
 
     const handleResize = () => {
         if (window.innerWidth < 870) {
-            setMobile(true)
+            setMobile(true);
         } else {
             setMobile(false);
         }
@@ -16,7 +16,7 @@ const Footer = () => {
     const logo = <div className="logo"></div>
     const buttons = <div className="buttons">
                         <a href="/about"><button className="contact">Contact</button></a>
-                        <a href="/home"><button className="home">Home</button></a>
+                        <a href="/"><button className="home">Home</button></a>
                     </div>
 
     window.addEventListener("resize", handleResize);

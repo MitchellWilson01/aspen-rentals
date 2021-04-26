@@ -21,7 +21,7 @@ const Header = () => {
 
     const sideDrawer =  <div className={drawerOpen ? "side-drawer side-drawer-active" : "side-drawer"}>
                                 <Link to="/" className="link" onClick={toggleDrawer}><h4>Home</h4></Link>
-                                <Link to="/" className="link" onClick={toggleDrawer}><h4>Services</h4></Link>
+                                <Link to="/services" className="link" onClick={toggleDrawer}><h4>Services</h4></Link>
                                 <Link to="/equipment" className="link" onClick={toggleDrawer}><h4>Equipment</h4></Link>
                                 <Link to="/about" className="link" onClick={toggleDrawer}><h4>About</h4></Link>
                                 <Link to="/conditioning" className="link"><h4>Conditioning</h4></Link>
@@ -45,7 +45,7 @@ const Header = () => {
         return (
             <div className="header">
                <Link to="/" className="link"><h4>Home</h4></Link>
-                <Link to="/" className="link"><h4>Services</h4></Link>
+                <Link to="/services" className="link"><h4>Services</h4></Link>
                 <Link to="/equipment" className="link"><h4>Equipment</h4></Link>
                 <Link to="/about" className="link"><h4>About</h4></Link>
                 <Link to="/conditioning" className="link"><h4>Conditioning</h4></Link>

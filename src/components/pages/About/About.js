@@ -17,12 +17,12 @@ const About = () => {
                     <div className="christian">                       
                         <p><i className="fas fa-user-circle"></i> &nbsp; Christian Martinez
                         <br/><i className="fas fa-envelope-open-text"></i> &nbsp; Christian@aspenindustrialmachines.com
-                        <br/><i class="fas fa-phone"></i> &nbsp; (713)-447-1487</p>
+                        <br/><i className="fas fa-phone"></i> &nbsp; (713)-447-1487</p>
                     </div>
                     <div className="annah">         
-                        <p><i class="fas fa-user-circle"></i> &nbsp; Annah Johnson
+                        <p><i className="fas fa-user-circle"></i> &nbsp; Annah Johnson
                         <br/><i className="fas fa-envelope-open-text"></i> &nbsp; Annah@aspenindustrialmachines.com
-                        <br/><i class="fas fa-phone"></i> &nbsp; (512)-740-4092</p>
+                        <br/><i className="fas fa-phone"></i> &nbsp; (512)-740-4092</p>
                         <p></p>
                     </div>
                 </div>
