@@ -6,13 +6,33 @@ const Services = () => {
         <div className="services">
             <div className="container">
             <h1>Services</h1>
-            <p>Aspen Industrial Machines offers multiple brands and sizes of 
-            briquetters. We are able to accommodate a variety of throughput 
-            volumes and footprints. Additionally, all rentals come with install 
-            and start-up training as well as PM maintenance and 24/7 on call 
-            service support and 48 hours guaranteed onsite support. Available 
-            options include shredders, entry and exit conveyors, fluid pans and 
-            sump pumps.</p>
+            <p>Third party services available for all metal briquetting systems 
+            and shredders.</p>
+            <p>All rentals come with installation assistance and start-up 
+            training as well as future PM maintenance and support.</p>
+            <p>With mobile trucks to service and repair your breakdowns on-site 
+            without the additional cost of transports or additional lost time 
+            for your equipment operators.</p>
+            <p>We understand the costs associated with equipment downtime. You 
+            can count on us for fast, reliable repairs and "Preventative 
+            Maintenance Programs".</p>
+            <p>For repair and service, please contact Charles Arnold 
+            ( 612-986-8303 ).</p>
+            <h2>Services Available</h2>
+            <div className="list">
+                <div className="list-r">
+                    <i className="fas fa-caret-right"></i>
+                    <p>Rebuilds/repairs/maintenance</p>
+                </div>
+                <div className="list-r">
+                    <i className="fas fa-caret-right"></i>
+                    <p>Chip conditioning consulting</p>
+                </div>
+                <div className="list-r">
+                    <i className="fas fa-caret-right"></i>
+                    <p>Set Up and equipment optimization</p>
+                </div>
+            </div>
             </div>
         </div>
     );
