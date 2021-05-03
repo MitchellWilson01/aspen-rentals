@@ -36,7 +36,7 @@ const About = () => {
             {mobile ? null : info}
             <div className="container">
             <div className="content">
-                <p className="p"><img src={about1}></img>Aspen Industrial Machines, LLC was created to provide rental 
+                <p className="p"><img src={about1} alt="metal chips"></img>Aspen Industrial Machines, LLC was created to provide rental 
                 options in the field of chip processing and management. 
                 Briquetting loose and wet scrap material has been a leading 
                 processing method for many years, known globally for increasing 
