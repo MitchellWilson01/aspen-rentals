@@ -128,7 +128,7 @@ const Briquetters = () => {
                         </div>
                     </Carousel>
                     <p className="title">RUF 15</p>
-                    <h2 className="conveyors">Conveyors & Shreddors</h2>
+                    <h2 className="conveyors">Additional Equipment</h2>
                     <Carousel className="card card-8" showIndicators={false} autoPlay={false} showStatus={false} interval={60000}>
                         <div className="image">
                         </div>
@@ -269,6 +269,7 @@ const Briquetters = () => {
                     </div>
                     <div className="image image-7"></div>
                 </div>
+                <h2 className="conveyors">Additional Equipment</h2>
                 <div className="card card-8">
                     <div>
                         <h5>600</h5>
