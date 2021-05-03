@@ -38,13 +38,13 @@ const About = () => {
                 {mobile ? info : null}
                 <div className="about">
                     <p>Aspen Industrial Machines, LLC. was created to provide rental 
-                    briquetting equipment for the manufacturing and recycling industries.</p>
+                    options in the field of chip processing and management.</p>
                 </div>
                 <div className="about">
                     <div className="about1"></div>
-                    <p className="p2">Manufacturing Facilities running machine centers and lathes have an 
-                    an ongoing need to handle chips and turnings as well as to recycle 
-                    coolant fluids.</p>
+                    <p className="p2">Briquetting loose and west scrap material has 
+                    been a leading processing method for many years, known globally 
+                    for increasing scrap valve, volume reduction and liquid recovery.</p>
                 </div>
                 <div className="about about-mad">
                     <p>For years, there have been companies selling briquetter systems. 
