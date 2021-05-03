@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import about1 from '../../../images/about1.png';
 import './About.scss';
 
 const About = () => {
@@ -35,7 +36,25 @@ const About = () => {
             {mobile ? null : info}
             <div className="container">
             <div className="content">
-                {mobile ? info : null}
+                <p className="p"><img src={about1}></img>Aspen Industrial Machines, LLC was created to provide rental 
+                options in the field of chip processing and management. 
+                Briquetting loose and wet scrap material has been a leading 
+                processing method for many years, known globally for increasing 
+                scrap valve, volume reduction and liquid recovery.</p>
+                <p className="p">Never before has there been a "zero capital" rental option 
+                and Aspen Industrial Machine LLC is proud to offer top-of-the-line 
+                brands as well as experts in helping facilities pick the right 
+                rental for their needs.</p>
+            </div>
+            </div>
+        </div>
+    );
+}
+
+export default About;
+
+/*
+{mobile ? info : null}
                 <div className="about">
                     <p>Aspen Industrial Machines, LLC. was created to provide rental 
                     options in the field of chip processing and management.</p>
@@ -55,10 +74,4 @@ const About = () => {
                     </p>
                     <div className="about2"></div>
                 </div>
-            </div>
-            </div>
-        </div>
-    );
-}
-
-export default About;
+*/
