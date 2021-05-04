@@ -35,7 +35,7 @@ const ServiceCards = () => {
             </div>
             <div className="card other border">
                 {mobile ? <i className="fas fa-tools"></i> : null}
-                <a href="/equipment">
+                <a href="/services">
                 <div>
                     {mobile ? null : <i className="fas fa-tools"></i>}
                     <h5>Repairs</h5>
