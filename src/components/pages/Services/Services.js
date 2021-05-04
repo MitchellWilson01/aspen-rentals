@@ -16,8 +16,8 @@ const Services = () => {
             <p>We understand the costs associated with equipment downtime. You 
             can count on us for fast, reliable repairs and "Preventative 
             Maintenance Programs".</p>
-            <p>For repair and service, please contact Charles Arnold 
-            ( 612-986-8303 ).</p>
+            <p>For repair and service, please contact Joe Gargasz 
+            ( 440-984-9694 ).</p>
             <h2>Services Available</h2>
             <div className="list">
                 <div className="list-r">

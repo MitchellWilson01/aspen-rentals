@@ -284,7 +284,7 @@ const Briquetters = () => {
                 </div>
                 <div className="card card-9">
                     <div>
-                        <h5>Name of Thing</h5>
+                        <h5>PM 1655E</h5>
                         <p>
                             Capacity (lbs/hr): <br />
                             Aluminum: 600 <br />
